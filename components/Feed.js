@@ -8,15 +8,15 @@ const Feed = () => {
 
         return (
 
-            <View style={{flex: 1, marginTop: 25, borderColor: '#ddd', borderTopWidth: 2, borderBottomWidth: 2, borderRadius: 5}}>
+            <View style={{flex: 1, marginTop: 25, alignItems: 'center'}}>
+                <View style={{flex: 1, borderColor: '#ddd', borderLeftWidth: 1, borderRightWidth: 1, borderTopWidth: 2, borderBottomWidth: 2, borderRadius: 5, maxWidth: 500}}>
 
-                <HeaderFeed />
-
+                    <HeaderFeed />
 
                     <SlideFeed />
 
-
-                <FooterFeed />
+                    <FooterFeed />
+                </View>
 
             </View>
 

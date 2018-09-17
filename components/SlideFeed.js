@@ -16,10 +16,10 @@ const SlideFeed = () => {
                 <Carousel
                     width={375}
                     height={300}
-                    delay={1000000000}
+                    delay={10000000}
                     indicatorAtBottom={true}
                     indicatorSize={20}
-                    indicatorColor="red"
+                    indicatorColor="#000"
                 >
                     <View style={styles.contentContainer}>
                         <View style={{flex: 1}}>
